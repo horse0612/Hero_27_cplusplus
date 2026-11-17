@@ -1,0 +1,12 @@
+build
+mx.scratch
+!.settings
+.rollback/
+.settings/
+*.elf
+*.map
+*.hex
+*.bin
+*.jdebug.user
+readme_xr.md
+.gitattributes

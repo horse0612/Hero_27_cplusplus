@@ -1,0 +1,23 @@
+{
+    "cmake.cmakePath": "cube-cmake",
+    "cmake.configureArgs": [
+        "-DCMAKE_COMMAND=cube-cmake"
+    ],
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "stm32cube-ide-clangd.path": "cube",
+    "stm32cube-ide-clangd.arguments": [
+        "starm-clangd",
+        "--query-driver=${env:CUBE_BUNDLE_PATH}/st-arm-clang/21.1.1+st.7/bin/starm-clang*",
+        "--query-driver=${env:CUBE_BUNDLE_PATH}/st-arm-clang/21.1.1+st.7/bin/starm-clang++*"
+    ],
+    "xrobot.cli.pythonPath": "C:\\Users\\lugp\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "xrobot.cli.extraPath": "C:\\Users\\lugp\\AppData\\Local\\Programs\\Python\\Python314;C:\\Users\\lugp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts",
+    "xrobot.libxr.iocFile": "xr_hero_lugp.ioc",
+    "xrobot.libxr.configPath": "User/libxr_config.yaml",
+    "xrobot.libxr.appMainPath": "User/app_main.cpp",
+    "emberprobe.openocdPath": "d:\\openOCD\\bin\\openocd.exe",
+    "emberprobe.sampleFrequencyHz": 200
+}
+
